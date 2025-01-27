@@ -1,0 +1,146 @@
+html{
+  font-size: 20px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  box-sizing: border-box;
+  font-family: "Oswald";
+}
+@font-face {
+  font-family: "Oswald";
+  src: url(/Font/Oswald-VariableFont_wght.ttf);
+}
+
+.index-body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.index-body> button{
+  height: 50px;
+  width: 220px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 14px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 30px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Css for new-count */
+#n-cbody{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#n-cbody> div{
+  height: 170px;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 15px;
+  font-size: 1rem; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px; 
+}
+#n-cbody #input{
+  height: 30px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 10px;
+}
+#n-cbody button{
+  width: 150px;
+  font-size: 1.4rem;
+  border: 2px solid greenyellow;
+  border-radius: 14px;
+  background-color: transparent;
+  color: greenyellow;
+  padding: 3px;
+}
+/* Css for my-count */
+#m-cbody{
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+.new-div{
+  border: 2px solid black;
+  border-radius: 14px;
+  margin: 20px;
+  padding: 10px;
+  padding-bottom: 0;
+}
+.new-div p{
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: 4px;
+  
+}
+.new-div button{
+  width: 150px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 25px;
+  margin: 10px;
+}
+.new-div :nth-child(2) {
+  color: rgb(0, 250, 0);
+  border: 2px solid rgb(0, 250, 0);
+}
+.new-div :last-child{
+  color: rgb(250, 0, 0);
+  border: 2px solid rgb(250, 0, 0);
+}
+/* Css for Counter */
+#c-body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#c-body> div{
+  height: 450px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 7px;
+  font-size: 40px;
+  text-align: center;
+}
+#c-body div> p{
+  margin: 50px;
+}
+#c-body #c-display{
+  font-size: 80px;
+}
+#c-body button{
+  height: 40px;
+  width: 150px;
+  font-size: 30px;
+  background-color: transparent;
+  border: 2px solid red;
+  border-radius: 7px;
+  color: red;
+} 
+#c-body #plus-btn{
+  border: 2px solid green;
+  color: green;
+}
