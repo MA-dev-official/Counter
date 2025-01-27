@@ -10,7 +10,7 @@ html{
 }
 @font-face {
   font-family: "Oswald";
-  src: url(/Font/Oswald-VariableFont_wght.ttf);
+  src: url(Oswald-VariableFont_wght.ttf);
 }
 
 .index-body{
