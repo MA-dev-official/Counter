@@ -143,4 +143,23 @@ html{
 #c-body #plus-btn{
   border: 2px solid green;
   color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#minus-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#reset-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px auto;
+}
+.df{
+  display: flex;
+  justify-content: center;
+  gap: 5px; 
 }
